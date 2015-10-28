@@ -38,25 +38,6 @@ public class Kata4 {
         output.flush();
         output.close();
         
-        /*
-        while(true){
-            int read = input.read();
-            if (read < 0) break;
-            output.write(read);
-        }
-        System.out.println(new Date().getTime() - time.getTime());
-        
-        input.close();
-        output.flush();
-        output.close(); 
-        */
-        //print(file.listFiles(), "");
-        
-        /*
-        String[] files = file.list();
-        for (String file1 : files) {
-        System.out.println(file1);
-        }*/
     }
 
     private static void print(File[] listFiles, String ident) {

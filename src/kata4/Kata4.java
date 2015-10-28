@@ -34,6 +34,10 @@ public class Kata4 {
         
         System.out.println(new Date().getTime() - time.getTime());
         
+        input.close();
+        output.flush();
+        output.close();
+        
         /*
         while(true){
             int read = input.read();
